@@ -36,6 +36,7 @@ void setup() {
 }
 
 
+
 void loop() {
 
 
@@ -45,7 +46,7 @@ void loop() {
 
   RatioDist = DistanceCurrent - DistancePrevious;
   RatioDist = abs (RatioDist);
-  if (RatioDist >= 40)
+  if (RatioDist >= 40) // Soit une distance de 40cm
   { 
     NbPassage++;
     aff_nb = NbPassage / 2;  
